@@ -289,6 +289,45 @@
                 margin-top: 10px;
             }
         }
+
+ @media (max-width: 768px) {
+
+    .service-item {
+        width: 90%;
+        margin: 15px auto;   /* ✔ center me lane ke liye */
+        display: block;      /* ✔ inline-block issue fix */
+    }
+
+    .header-container {
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 12px;
+        margin: 15px 0;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .testimonial {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+
     </style>
 </head>
 <body>
